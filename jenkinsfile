@@ -52,7 +52,7 @@ pipeline {
     
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "SpringDemo"
+            GIT_REPO_NAME = "CT-Java-11"
             GIT_USER_NAME = "david-damo"
         }
         steps {
